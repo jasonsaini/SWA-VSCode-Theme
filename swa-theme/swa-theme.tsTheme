@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>Southwest Dark Enhanced</string>
+    <string>Southwest Balanced Red and Blue</string>
     <key>settings</key>
     <array>
         <!-- General settings (Traditional dark mode) -->
@@ -74,7 +74,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9CDCFE</string> <!-- Soft blue for variables and parameters -->
+                <string>#D5152E</string> <!-- Warm red for variables and parameters -->
             </dict>
         </dict>
         <!-- Control Flow (if, else, etc.) -->
@@ -86,7 +86,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D5152E</string> <!-- Warm red for control flow keywords -->
+                <string>#304CB2</string> <!-- Bold blue for control flow keywords -->
             </dict>
         </dict>
     </array>
