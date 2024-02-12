@@ -138,4 +138,10 @@
             <dict>
                 <key>foreground</key>
                 <string>#fb151d</string> <!-- Red color for errors -->
-                <key>
+                <key>background</key>
+                <string>#ffab0333</string> <!-- Slightly opaque yellow background for visibility -->
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
