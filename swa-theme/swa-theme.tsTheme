@@ -89,6 +89,48 @@
                 <string>#304CB2</string> <!-- Bold blue for control flow keywords -->
             </dict>
         </dict>
+
+                   <!-- JSON Property Keys -->
+        <dict>
+            <key>scope</key>
+            <string>support.type.property-name.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#304CB2</string> <!-- Bold blue for JSON keys -->
+            </dict>
+        </dict>
+        <!-- JSON String Values -->
+        <dict>
+            <key>scope</key>
+            <string>string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D5152E</string> <!-- Warm red for JSON string values -->
+            </dict>
+        </dict>
+        <!-- JSON Numbers -->
+        <dict>
+            <key>scope</key>
+            <string>constant.numeric.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5E7E96</string> <!-- Deep silver for JSON numbers -->
+            </dict>
+        </dict>
+        <!-- JSON Booleans and Null -->
+        <dict>
+            <key>scope</key>
+            <string>constant.language.json, constant.null.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFBF27</string> <!-- Sunrise yellow for JSON booleans and null -->
+            </dict>
+        </dict>
     </array>
+
 </dict>
 </plist>
