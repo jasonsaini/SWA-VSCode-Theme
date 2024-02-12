@@ -2,101 +2,109 @@
     "name": "Southwest",
     "type": "dark",
     "colors": {
-        "editor.background": "#1544a8",
-        "editor.foreground": "#fb151d",
-        "editorCursor.foreground": "#ffab03",
-        "editor.lineHighlightBackground": "#1544a822",
-        "editorLineNumber.foreground": "#FFFFFF",
-        "editor.selectionBackground": "#1544a844",
-        "editor.inactiveSelectionBackground": "#1544a822",
-        "editorWhitespace.foreground": "#FFFFFF55",
-        "activityBar.background": "#1544a8",
-        "activityBar.inactiveForeground": "#FFFFFF99",
-        "activityBar.foreground": "#ffab03",
-        "activityBarBadge.background": "#ffab03",
-        "activityBarBadge.foreground": "#000000",
-        "sideBar.background": "#1544a8",
-        "sideBar.foreground": "#FFFFFF",
-        "sideBar.border": "#1544a8",
-        "sideBarTitle.foreground": "#FFFFFF",
-        "sideBarSectionHeader.background": "#1544a8",
-        "sideBarSectionHeader.foreground": "#FFFFFF",
-        "statusBar.background": "#1544a8",
-        "statusBarItem.hoverBackground": "#ffab03",
-        "statusBar.foreground": "#FFFFFF",
-        "titleBar.activeBackground": "#1544a8",
-        "titleBar.inactiveBackground": "#1544a899",
-        "titleBar.activeForeground": "#FFFFFF",
-        "titleBar.inactiveForeground": "#FFFFFF99",
-        "button.background": "#ffab03",
-        "button.foreground": "#000000",
-        "button.hoverBackground": "#fb151d",
-        "dropdown.background": "#1544a8",
-        "dropdown.foreground": "#FFFFFF",
-        "input.background": "#1544a8",
-        "input.foreground": "#FFFFFF",
-        "input.placeholderForeground": "#FFFFFF55",
-        "inputOption.activeBackground": "#ffab03",
-        "inputOption.activeBorder": "#fb151d",
-        "scrollBar.shadow": "#000000",
-        "scrollBarSlider.background": "#FFFFFF55",
-        "scrollBarSlider.hoverBackground": "#FFFFFF88",
-        "scrollBarSlider.activeBackground": "#FFFFFF",
-        "badge.background": "#fb151d",
-        "badge.foreground": "#FFFFFF",
-        "tab.activeBackground": "#1544a8",
-        "tab.inactiveBackground": "#1544a822",
-        "tab.inactiveForeground": "#FFFFFF55",
-        "tab.activeForeground": "#ffab03",
-        "tab.hoverBackground": "#1544a8",
-        "tab.unfocusedHoverBackground": "#1544a855",
-        "terminal.background": "#1544a8",
-        "terminal.foreground": "#fb151d",
-        "terminalCursor.background": "#FFFFFF",
-        "terminalCursor.foreground": "#ffab03"
+      "editor.background": "#1544a8",
+      "editor.foreground": "#FFFFFF",
+      "editorCursor.foreground": "#ffab03",
+      "editor.lineHighlightBackground": "#1544a822",
+      "editorLineNumber.foreground": "#FFFFFF",
+      "editor.selectionBackground": "#fb151d55",
+      "editor.inactiveSelectionBackground": "#fb151d30",
+      "editorWhitespace.foreground": "#FFFFFF55",
+      "activityBar.background": "#1544a8",
+      "activityBar.inactiveForeground": "#fb151d99",
+      "activityBar.foreground": "#ffab03",
+      "activityBarBadge.background": "#ffab03",
+      "activityBarBadge.foreground": "#1544a8",
+      "sideBar.background": "#1544a8",
+      "sideBar.foreground": "#FFFFFF",
+      "sideBar.border": "#fb151d",
+      "sideBarTitle.foreground": "#FFFFFF",
+      "sideBarSectionHeader.background": "#1544a8",
+      "sideBarSectionHeader.foreground": "#FFFFFF",
+      "statusBar.background": "#1544a8",
+      "statusBarItem.hoverBackground": "#ffab03",
+      "statusBar.foreground": "#FFFFFF",
+      "statusBar.border": "#fb151d",
+      "titleBar.activeBackground": "#1544a8",
+      "titleBar.inactiveBackground": "#1544a899",
+      "titleBar.activeForeground": "#FFFFFF",
+      "titleBar.inactiveForeground": "#FFFFFF99",
+      "button.background": "#ffab03",
+      "button.foreground": "#1544a8",
+      "button.hoverBackground": "#fb151d",
+      "dropdown.background": "#1544a8",
+      "dropdown.foreground": "#FFFFFF",
+      "input.background": "#1544a8",
+      "input.foreground": "#FFFFFF",
+      "input.placeholderForeground": "#FFFFFF55",
+      "inputOption.activeBackground": "#ffab03",
+      "inputOption.activeBorder": "#fb151d",
+      "scrollBar.shadow": "#fb151d",
+      "scrollBarSlider.background": "#fb151d55",
+      "scrollBarSlider.hoverBackground": "#fb151d88",
+      "scrollBarSlider.activeBackground": "#fb151d",
+      "badge.background": "#fb151d",
+      "badge.foreground": "#1544a8",
+      "tab.activeBackground": "#fb151d",
+      "tab.inactiveBackground": "#fb151d55",
+      "tab.inactiveForeground": "#FFFFFF55",
+      "tab.activeForeground": "#ffab03",
+      "tab.hoverBackground": "#fb151d",
+      "tab.unfocusedHoverBackground": "#fb151d55",
+      "panel.border": "#fb151d",
+      "terminal.background": "#1544a8",
+      "terminal.foreground": "#FFFFFF",
+      "terminalCursor.background": "#fb151d",
+      "terminalCursor.foreground": "#ffab03",
+      "editorWidget.background": "#1544a8",
+      "editorWidget.border": "#fb151d"
     },
     "tokenColors": [
-        {
-            "name": "Comments",
-            "scope": ["comment", "punctuation.definition.comment"],
-            "settings": {
-                "foreground": "#FFFFFF55"
-            }
-        },
-        {
-            "name": "Keywords",
-            "scope": ["keyword"],
-            "settings": {
-                "foreground": "#fb151d"
-            }
-        },
-        {
-            "name": "Strings",
-            "scope": ["string"],
-            "settings": {
-                "foreground": "#ffab03"
-            }
-        },
-        {
-            "name": "Functions",
-            "scope": ["entity.name.function"],
-            "settings": {
-                "foreground": "#fb151d"
-            }
-        },
-        {
-            "name": "Variables",
-            "scope": ["variable"],
-            "settings": {
-                "foreground": "#fb151d"
-            }
-        },
-        {
-            "name": "Punctuation",
-            "scope": ["punctuation"],
-            "settings": {
-                "foreground": "#ffab03"
-            }
+      {
+        "name": "Comments",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "foreground": "#FFFFFF55"
         }
+      },
+      {
+        "name": "Keywords",
+        "scope": ["keyword"],
+        "settings": {
+          "foreground": "#ffab03"
+        }
+      },
+      {
+        "name": "Function Definitions and Parameters",
+        "scope": [
+          "entity.name.function",
+          "variable.parameter"
+        ],
+        "settings": {
+          "foreground": "#ffab03"
+        }
+      },
+      {
+        "name": "Strings",
+        "scope": ["string"],
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "name": "Variables",
+        "scope": ["variable"],
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "name": "Punctuation",
+        "scope": ["punctuation"],
+        "settings": {
+          "foreground": "#ffab03"
+        }
+      }
     ]
-}
+  }
+  

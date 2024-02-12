@@ -11,8 +11,8 @@
       "themes": [
         {
           "label": "Southwest",
-          "uiTheme": "vs-dark",
-          "path": "./swa-theme.json"
+          "uiTheme": "vs=dark",
+          "path": "./swa-theme.tsTheme"
         }
       ]
     }
