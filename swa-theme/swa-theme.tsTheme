@@ -3,23 +3,20 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>Southwest Theme</string>
+    <string>Southwest Dark Enhanced</string>
     <key>settings</key>
     <array>
-        <!-- Base settings -->
+        <!-- General settings (Traditional dark mode) -->
         <dict>
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#1544a8</string>
+                <string>#1E1E1E</string> <!-- Traditional dark mode background -->
                 <key>foreground</key>
-                <string>#FFFFFF</string>
-                <key>caret</key>
-                <string>#ffab03</string>
-                <key>invisibles</key>
-                <string>#ffab03</string>
+                <string>#D4D4D4</string> <!-- Soft white for general text -->
             </dict>
         </dict>
+        <!-- Syntax highlighting -->
         <!-- Comments -->
         <dict>
             <key>name</key>
@@ -29,7 +26,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#fb151d</string>
+                <string>#5E7E96</string> <!-- Deep silver for comments -->
             </dict>
         </dict>
         <!-- Keywords -->
@@ -41,7 +38,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffab03</string>
+                <string>#304CB2</string> <!-- Bold blue for keywords -->
             </dict>
         </dict>
         <!-- Strings -->
@@ -53,7 +50,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffab03</string>
+                <string>#FFBF27</string> <!-- Sunrise yellow for strings -->
             </dict>
         </dict>
         <!-- Function and Method Names -->
@@ -65,58 +62,22 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffab03</string>
+                <string>#D5152E</string> <!-- Warm red for function names -->
             </dict>
         </dict>
-        <!-- Numbers -->
+        <!-- Variables and Parameters -->
         <dict>
             <key>name</key>
-            <string>Numbers</string>
+            <string>Variables and Parameters</string>
             <key>scope</key>
-            <string>constant.numeric</string>
+            <string>variable, variable.parameter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#fb151d</string>
+                <string>#9CDCFE</string> <!-- Soft blue for variables and parameters -->
             </dict>
         </dict>
-        <!-- Punctuation -->
-        <dict>
-            <key>name</key>
-            <string>Punctuation</string>
-            <key>scope</key>
-            <string>punctuation</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fb151d</string>
-            </dict>
-        </dict>
-        <!-- Class Names -->
-        <dict>
-            <key>name</key>
-            <string>Class Names</string>
-            <key>scope</key>
-            <string>entity.name.class</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#ffab03</string>
-            </dict>
-        </dict>
-        <!-- Operators -->
-        <dict>
-            <key>name</key>
-            <string>Operators</string>
-            <key>scope</key>
-            <string>keyword.operator</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fb151d</string>
-            </dict>
-        </dict>
-        <!-- Control Flow Keywords -->
+        <!-- Control Flow (if, else, etc.) -->
         <dict>
             <key>name</key>
             <string>Control Flow</string>
@@ -125,21 +86,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffab03</string>
-            </dict>
-        </dict>
-        <!-- Error Tracking -->
-        <dict>
-            <key>name</key>
-            <string>Syntax Errors</string>
-            <key>scope</key>
-            <string>invalid</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fb151d</string> <!-- Red color for errors -->
-                <key>background</key>
-                <string>#ffab0333</string> <!-- Slightly opaque yellow background for visibility -->
+                <string>#D5152E</string> <!-- Warm red for control flow keywords -->
             </dict>
         </dict>
     </array>
