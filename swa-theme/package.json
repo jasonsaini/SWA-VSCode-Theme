@@ -1,0 +1,20 @@
+{
+    "name": "swa-theme",
+    "displayName": "Southwest Theme",
+    "description": "A custom VS Code theme for Southwest Airlines",
+    "version": "1.0.0",
+    "engines": {
+      "vscode": "^1.38.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Southwest",
+          "uiTheme": "vs-dark",
+          "path": "./swa-theme.json"
+        }
+      ]
+    }
+  }
+  
