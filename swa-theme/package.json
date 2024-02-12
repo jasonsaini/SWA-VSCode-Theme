@@ -1,6 +1,7 @@
 {
     "name": "swa-theme",
     "displayName": "Southwest Theme",
+    "icon": "images/logo.png",
     "description": "A custom VS Code theme for Southwest Airlines",
     "version": "1.0.0",
     "engines": {
